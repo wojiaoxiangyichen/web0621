@@ -3,8 +3,353 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="web0614.css">
         <title>买猜商城</title>
+        <style type="text/css">
+        	*{
+	margin:0px;
+	padding:0px;
+}
+.dingceng{
+	height:190px;
+	width:1920px;
+}
+.dingceng1{
+	height:34px;
+	width:1196px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin:0px auto;
+}
+.zi1{
+	position:absolute;
+	left:850px;
+	top:15px;
+	font-size: 15px;
+	color:#5d5a5c;
+}
+.denglu{
+	position:absolute;
+	left:1050px;
+	top:15px;
+	font-size: 18px;
+	color: #5d5a5c;
+	text-decoration:none;
+}
+.zhuce{
+	position:absolute;
+	left:1150px;
+	top:15px;
+	font-size: 18px;
+	color: #5d5a5c;
+	text-decoration:none;
+}
+.ding{
+	position:absolute;
+	left:1250px;
+	top:15px;
+	font-size: 18px;
+	color: #5d5a5c;
+	text-decoration:none;
+}
+.jian1{
+	position:absolute;
+	left:1330px;
+	top:15px;
+	margin:0px;
+	display:inline-block;
+}
+.mai{
+	position:absolute;
+	left:1350px;
+	top:15px;
+	font-size: 18px;
+	color: #5d5a5c;
+	text-decoration:none;
+}
+.jian2{
+	position:absolute;
+	left:1430px;
+	top:15px;
+	margin:0px;
+	display:inline-block;
+}
+.bangzhu{
+	position:absolute;
+	left:1450px;
+	top:15px;
+	font-size: 18px;
+	color: #5d5a5c;
+	text-decoration:none;
+}
+.tuwb{
+	position:absolute;
+	left:1530px;
+	top:15px;
+	margin:0px;
+	display:inline-block;
+}
+.tuwx{
+	position:absolute;
+	left:1550px;
+	top:15px;
+	margin:0px;
+	display:inline-block;
+}
+.dingceng2{
+	height:100px;
+	width:1196px;
+	margin:0px auto;
+	position: relative;
+}
+.logo{
+	position:absolute;
+	margin-top:40px;
+	display:inline-block;
+}
+.kuang{
+	width: 600px;
+	height:47px;
+	margin-top: 50px;
+	margin-left: 400px;
+	margin-right: 50px;
+	display:inline-block;
+	box-sizing:border-box;
+}
+.neirong{
+	position:absolute;
+	height:45px;
+	width:600px;
+	margin:0px auto;
+	text-align: center;
+
+}
+.seach{
+	position:absolute;
+	margin-left: 565px;
+	margin-top: 8px;
+}
+.cart{
+	position:absolute;
+	margin-left: 100px;
+	margin-top: 60px;
+}
+.dingceng3{
+	height:60px;
+	width:1196px;
+	margin:0px auto;
+	position: relative;
+}
+.biaoge1{
+	position: relative;
+	margin-left: 400px;
+	margin-top: 15px;
+}
+.biaoge1 li{
+	list-style:none;
+	display:inline-block;
+	font-size: 20px;
+	margin-right: 50px;
+	padding-bottom: 10px;
+}
+ul li:hover{
+	color: rgb(48,161,62);
+	border-bottom: 3px solid rgb(48,161,62);
+}
+.datu{
+	width: 1920px;
+	height: 675px;
+}
+.banner{
+	width: 100%;
+	background-image:"imgs/banner.png";
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.liebiao{
+	position: relative;
+	width:75px; 
+	height:680px;
+	margin-left: 1845px;
+	display: inline;
+}
+.tupian{
+	float: right;
+	position: fixed;
+	right: 0;
+	top: 200px;
+	right:0;
+}
+.tupian li{
+	height:120px;
+	background-color:#181b17 ;
+	width: 75px;
+	border-top:1px solid #595e5d;
+	text-align: center;
+}
+.tupian li:first-child{
+	border-top:0;
+}
+.tupian img{
+	float: right;
+	margin-top:44px;
+	margin-right:20px;
+}
+.zhongceng{
+	height:200px;
+}
+.hang1{
+	width:1200px;
+	height:50px;
+	margin:0 auto;
+}
+.shouye{
+	color:#000000;
+}
+.yushi{
+	font-size: 15px;
+	color:#6b6969;
+}
+.shangping{
+	font-size: 15px;
+	color:#6b6969;
+	float:right;
+}
+.biaoge2{
+	height:180px;
+	width:1200px;
+	margin:0 auto;
+}
+.biaoge2 tr{
+	height:45px;
+	width:1190px;
+	text-align:center;
+	border:#cccccc 1px solid;
+}
+.biaoge2 tr th{
+	height:45px;
+	width:100px;
+	color:#000000;
+	line-height:45px;
+	text-align:center;
+	float:left;
+	background-color: #e5e5e5;
+}
+
+.biaoge2 tr td{
+	float: left;
+	color:#737373;
+	text-align:center;
+	line-height:45px;
+	height:45px;
+	width:100px;
+	margin-right:15px;
+}
+#gengduo{
+	line-height:45px;
+	text-align:center;
+	height:45px;
+	width:100px;
+	margin-right:45px;
+}
+.image{
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+}
+.image ul{
+	width: 1200px;
+}
+.image ul li{
+	width:270px ;
+	height: 290px;
+	float: left;
+    position: relative;
+    margin: 12px;
+    border: #878787 1px solid;
+    text-align: center;
+}
+.jiage1{
+	width: 270px;
+	height: 55px;
+	color: #ffffff;
+	position: absolute;
+	top: 235px;
+	z-index: 10;
+	opacity:0.9; 
+    filter:alpha(opacity=40);
+	background-color: #4c4c4c;
+}
+.jiage2{
+	width: 270px;
+	height:290px;
+	position: absolute;
+	top: 0px;
+	color: #ffffff;
+	z-index: 10;
+	opacity:0.0;
+	text-align: center;
+    filter:alpha(opacity=40);
+}
+.x1{
+	position: relative;
+	top: 140px;
+}
+.x2{
+	position: relative;
+	top:165px;
+}
+.jiage2:hover{
+	opacity:0.9; 
+    filter:alpha(opacity=40);
+	background-color:#4c4c4c ;
+}
+.diceng{
+	height: 100px;
+	background-color: #f5f5f5;
+}
+.diceng ul{
+	width: 1200px;
+	height: 100px;
+	position: relative;
+	top: 30px;
+	margin: 0 auto;
+}
+#m1{
+	border-left:none;
+}
+.diceng ul li{
+	width: 280px;
+	height: 50px;
+	color: #333333;
+	text-indent: 1em;
+	display: inline-block;
+	border-left: 1px #e0e0e0 solid;
+}
+.you{
+	width:180px ;
+	height: 50px;
+	float: right;
+}
+.p1{
+	font-size: 20px;
+}
+.p2{
+	font-size: 14px;
+}
+.bottom{
+	height: 100px;
+	background-color: #323232;
+}
+.bottom1{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+	color: #f5f5f5;
+}
+
+        </style>
     </head>
     <body>
     	<div class="dingceng">
